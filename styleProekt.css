@@ -1,0 +1,54 @@
+*{
+    outline: 0 !important;
+  }
+.menu{
+ width: 500px;
+ height: 300px;
+ border: 1px solid #968a8a;
+ box-shadow: 0 0 10px #000000;
+ border-radius: 10%;
+ position: relative;
+ left:0px;
+ right: auto;
+ margin: auto;
+ margin-top: 20px;
+ background-color: rgb(255, 223, 180);
+}
+.intNuberStyle, .zagol{
+     width: 90%; 
+    height:30px;
+    left:10px;
+    margin: 20px;
+    font-size: 15px;
+    font-family: 'Oswald';
+}
+
+.colstyle button, .posbtn_2 button{
+    width: 240px;
+    height: 140px;
+    font-size: 15px;
+    font-family: 'Oswald';
+    transition: .2s linear;
+    border-radius: 5%;
+    border: 1px solid lightgrey;
+}
+posbtn_2 button{
+    margin-top: 20px;
+}
+.bottombtn button{
+    width: 40px;
+}
+#btnum, #btndel, #btnplus, #btnper, .result, #btnminus, #btnDot, #btnClear{
+    color: #2600ff;
+}
+#btn0,#btn1,#btn2,#btn3,#btn4,#btn5,#btn6,#pos1,#pos2,#pos3{
+    font-weight: bold;
+}
+button:hover{
+    box-shadow: 0 0 8px #968a8a;
+    transform: scale(1.1);
+    background-color: #ffffff;
+}
+#btnDot:hover{
+    transform: scale(1.05);
+}
